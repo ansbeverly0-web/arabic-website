@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>المدونة - موقع عربي حديث</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="index.html" style="text-decoration: none; color: inherit;">موقعي</a></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">من نحن</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">معرض الأعمال</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">المدونة</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">تواصل معنا</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">المدونة</h1>
+            <p class="page-subtitle">آخر المقالات والأخبار التقنية</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card featured">
+                    <div class="blog-image">
+                        <div class="blog-category">تقنية</div>
+                        <div class="blog-date">15 سبتمبر 2025</div>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">مستقبل تطوير المواقع الإلكترونية في 2025</h2>
+                        <p class="blog-excerpt">
+                            تشهد صناعة تطوير المواقع تطورات مستمرة، ومع دخولنا عام 2025، نرى اتجاهات جديدة مثيرة تشمل الذكاء الاصطناعي والواقع المعزز...
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-author">👤 أحمد محمد</span>
+                            <span class="blog-read-time">⏱️ 5 دقائق قراءة</span>
+                        </div>
+                        <a href="#" class="blog-read-more">اقرأ المزيد</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">تصميم</div>
+                        <div class="blog-date">12 سبتمبر 2025</div>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">أسرار التصميم الحديث للمواقع العربية</h2>
+                        <p class="blog-excerpt">
+                            التصميم الجيد للمواقع العربية يتطلب فهماً عميقاً للثقافة والخط العربي. في هذا المقال نستكشف أهم النصائح...
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-author">👤 فاطمة أحمد</span>
+                            <span class="blog-read-time">⏱️ 7 دقائق قراءة</span>
+                        </div>
+                        <a href="#" class="blog-read-more">اقرأ المزيد</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">برمجة</div>
+                        <div class="blog-date">10 سبتمبر 2025</div>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">دليل شامل لتعلم JavaScript من الصفر</h2>
+                        <p class="blog-excerpt">
+                            JavaScript هي لغة البرمجة الأساسية لتطوير المواقع التفاعلية. في هذا الدليل الشامل، سنتعلم الأساسيات خطوة بخطوة...
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-author">👤 محمد علي</span>
+                            <span class="blog-read-time">⏱️ 12 دقيقة قراءة</span>
+                        </div>
+                        <a href="#" class="blog-read-more">اقرأ المزيد</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">أمان</div>
+                        <div class="blog-date">8 سبتمبر 2025</div>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">حماية المواقع الإلكترونية من الهجمات السيبرانية</h2>
+                        <p class="blog-excerpt">
+                            الأمان السيبراني أصبح أولوية قصوى في عالم اليوم. تعرف على أهم الطرق لحماية موقعك من التهديدات الأمنية...
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-author">👤 سارة حسن</span>
+                            <span class="blog-read-time">⏱️ 8 دقائق قراءة</span>
